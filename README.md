@@ -38,13 +38,13 @@
 - **Git** - система контроля версий
 
 ## 📁 Структура проекта
-calculator/
-├── index.html # Основной HTML файл
-├── styles/
-│ └── style.css # Стили приложения
-├── scripts/
-│ └── calculator.js # JavaScript логика
-└── README.md # Документация
+- calculator/
+- ├── index.html # Основной HTML файл
+- ├── styles/
+- │   └── style.css # Стили приложения
+- ├── scripts/
+- │   └── calculator.js # JavaScript логика
+- └── README.md # Документация
 
 ## 🎯 Основные особенности реализации
 
