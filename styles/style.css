@@ -27,6 +27,9 @@ body {
     padding: 20px;
     width: 100%;
     max-width: 400px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
 .calculator__display {
@@ -55,6 +58,8 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    flex: 1;
+    align-content: start;
 }
 
 .calculator__btn {
@@ -84,6 +89,7 @@ body {
 @media (max-width: 480px) {
     .calculator {
         width: 95%;
+        min-height: 500px;
     }
     
     .calculator__btn {
